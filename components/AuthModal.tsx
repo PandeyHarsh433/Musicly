@@ -40,6 +40,10 @@ const AuthModal = () => {
       isOpen={isOpen}
       onChange={onChange}
     >
+      <div className="text-xs">
+        <p>Test Email :- moviesjust461@gmail.com</p>
+        <p>Test PWD :- Moviesjust@461</p>
+      </div>
       <Auth
         supabaseClient={supabaseClient}
         providers={["github"]}
