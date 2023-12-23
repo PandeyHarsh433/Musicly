@@ -15,6 +15,14 @@ export interface Product {
   image?: string;
 }
 
+export interface UserDetails {
+  id: string;
+  first_name: string;
+  last_name: string;
+  full_name?: string;
+  avatar_url?: string;
+}
+
 export interface Customer {
   id: string;
   stripe_customer_id?: string;
