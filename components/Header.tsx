@@ -5,7 +5,7 @@ import { twMerge } from "tailwind-merge";
 import { RxCaretLeft, RxCaretRight } from "react-icons/rx";
 import { useSupabaseClient } from "@supabase/auth-helpers-react";
 import { FaUserAlt } from "react-icons/fa";
-import { HiHome } from "react-icons/hi";
+import { HiOutlineHome } from "react-icons/hi";
 import { BiSearch } from "react-icons/bi";
 import { toast } from "react-hot-toast";
 import Button from "./Button";
@@ -62,7 +62,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
             onClick={() => router.push("/")}
             className="rounded-full p-2 bg-white flex items-center justify-center cursor-pointer hover:opacity-75 transition"
           >
-            <HiHome className="text-black" size={20} />
+            <HiOutlineHome className="text-black" size={20} />
           </button>
           <button
             onClick={() => router.push("/search")}
