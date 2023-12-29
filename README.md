@@ -62,20 +62,18 @@ This project is licensed under the MIT License - see the LICENSE file for detail
    git clone https://github.com/PandeyHarsh433/Musicly.git
 
 2. ## Install dependencies:
+    ```bash
    cd musicly
    npm install
 
-3. ## Set up Supabase credentials:
-   ### .env.local :- 
-    NEXT_PUBLIC_SUPABASE_URL="XXXX"
-    NEXT_PUBLIC_SUPABASE_ANON_KEY="XXXX"
-    SUPABASE_SERVICE_ROLE_KEY="XXXX"
+4. ## Set up Supabase credentials in .env.local:
+  - NEXT_PUBLIC_SUPABASE_URL="XXXX"
+  - NEXT_PUBLIC_SUPABASE_ANON_KEY="XXXX"
+  - SUPABASE_SERVICE_ROLE_KEY="XXXX"
 
 5. ## Run the development server:
-
    npm run dev
-
-Visit http://localhost:3000 to experience Musicly!
+   Visit http://localhost:3000 to experience Musicly!
 
 ## Contributing
-Feel free to contribute to the development of Musicly. Check out the Contributing Guidelines for more details.
+   Feel free to contribute to the development of Musicly. Check out the Contributing Guidelines for more details.
