@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Musicly - Your Personal Music Streaming App
+
+![Musicly Preview](https://raw.githubusercontent.com/PandeyHarsh433/images/master/Screenshot%20(190).png)
+
+Musicly is a feature-rich music streaming application built with Next.js 14, App Router, Tailwind CSS, Supabase, and more.
+
+## Features
+
+### 1. User Authentication
+
+- **Supabase Authentication:**
+  - Secure user authentication powered by Supabase.
+
+- **Test User Credentials:**
+  - Username: Moviesjust461@gmail.com
+  - Password: Moviesjust@461
+
+### 2. Song Upload and Streaming
+
+- **Upload Songs:**
+  - Easily upload and manage your music collection.
+
+- **Online Streaming:**
+  - Stream your favorite songs with a user-friendly player.
+
+- **Player Controls:**
+  - Play, pause, skip, and control volume – just like Spotify!
+
+### 3. Favorites List
+
+- **Add to Favorites:**
+  - Create a list of your favorite songs.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### 4. Stylish UI
+
+- **Tailwind CSS Styling:**
+  - Modern and responsive UI with Tailwind CSS.
+
+### 5. Secure Data Storage
+
+- **Supabase Storage:**
+  - Securely store song files and images using Supabase.
+
+## Screenshots
+
+### Home Page
+![Home Page](https://raw.githubusercontent.com/PandeyHarsh433/images/master/Screenshot%20(190).png)
+
+### Song Upload
+![Song Upload](https://github.com/PandeyHarsh433/images/blob/master/image.png?raw=true)
+
+### Player Controls
+![Liked Songs](https://raw.githubusercontent.com/PandeyHarsh433/images/master/Screenshot%20(191).png)
 
 ## Getting Started
 
-First, run the development server:
+1. ## Clone the repository:
+   ```bash
+   git clone https://github.com/PandeyHarsh433/Musicly.git
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. ## Install dependencies:
+   cd musicly
+   npm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. ## Set up Supabase credentials:
+   ### .env.local :- 
+    NEXT_PUBLIC_SUPABASE_URL="XXXX"
+    NEXT_PUBLIC_SUPABASE_ANON_KEY="XXXX"
+    SUPABASE_SERVICE_ROLE_KEY="XXXX"
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+5. ## Run the development server:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   npm run dev
 
-## Learn More
+Visit http://localhost:3000 to experience Musicly!
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contributing
+Feel free to contribute to the development of Musicly. Check out the Contributing Guidelines for more details.
