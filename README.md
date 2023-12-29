@@ -31,9 +31,6 @@ Musicly is a feature-rich music streaming application built with Next.js 14, App
 - **Add to Favorites:**
   - Create a list of your favorite songs.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ### 4. Stylish UI
 
 - **Tailwind CSS Styling:**
@@ -76,4 +73,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
    Visit http://localhost:3000 to experience Musicly!
 
 ## Contributing
-   Feel free to contribute to the development of Musicly. Check out the Contributing Guidelines for more details.
+  - Feel free to contribute to the development of Musicly. Check out the Contributing Guidelines for more details.
+
+## License
+  - This project is licensed under the MIT License - see the LICENSE file for details.
