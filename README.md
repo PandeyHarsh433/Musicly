@@ -52,7 +52,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Song Upload
 ![Song Upload](https://github.com/PandeyHarsh433/images/blob/master/image.png?raw=true)
 
-### Player Controls
+### Favourite Songs
 ![Liked Songs](https://raw.githubusercontent.com/PandeyHarsh433/images/master/Screenshot%20(191).png)
 
 ## Getting Started
