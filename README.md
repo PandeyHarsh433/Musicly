@@ -70,7 +70,8 @@ Musicly is a feature-rich music streaming application built with Next.js 14, App
 
 5. ## Run the development server:
    npm run dev
-   Visit http://localhost:3000 to experience Musicly!
+
+***Visit http://localhost:3000 to experience Musicly!***
 
 ## Contributing
   - Feel free to contribute to the development of Musicly. Check out the Contributing Guidelines for more details.
