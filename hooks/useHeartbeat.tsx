@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-const HEARTBEAT_INTERVAL = 60 * 1000;;
+const HEARTBEAT_INTERVAL = 24 * 60 * 60 * 1000;
 
 export const useHeartbeat = () => {
     const [lastHeartbeat, setLastHeartbeat] = useState<Date | null>(null);
